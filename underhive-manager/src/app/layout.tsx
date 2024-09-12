@@ -43,8 +43,8 @@ export default function RootLayout({
             navbar={{ width: { sm: 200, lg: 300 }, breakpoint: "sm" }}
           >
             <Header />
-            <Navbar />
             <Main>{children}</Main>
+            <Navbar />
           </AppShell>
         </MantineProvider>
       </body>
